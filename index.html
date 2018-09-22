@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ruba.T</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700italic&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href="css/mobilemenu.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons.css" rel="stylesheet">
+    <link href="css/foundation.min.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <!-- Theme color -->
+    <link href="css/less/colors/l-red.min.css" rel="stylesheet">
+
+    <!-- <link href="favicon.ico" rel="icon" type="image/x-icon" /> -->
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+
+    <script src="js/lib/modernizr.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+<body data-currency="₴">
+<span class="theme-bg-c"></span>
+<div class="preloader-block">
+    <div class="preloader-container">
+        <svg id="Layer_1" x="0px" y="0px"
+				 width="150px" height="150px" viewBox="0 0 600 690" enable-background="new 0 0 600 690" xml:space="preserve">
+			<polygon fill="#FFFFFF" class="polygon" stroke="#A7A9AC" stroke-width="8" stroke-miterlimit="10" points="54.558,557.559 300,132.441
+				545.441,557.559 "/>
+			<polygon fill="#8856A3"  class="inner" points="96.037,535.115 300,168.885 503.963,535.115 "/>
+			</svg>
+    </div>
+</div>
+<div class="page-content parallax-header">
+    <header class="header">
+        <div class="menu-wrapper">
+            <div class="row">
+                <div class="column large-2">
+                    <div class="logo-wrapper">
+                        <img src="images/logo.png" alt="" class="logo-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="header-content">
+                    <div class="row">
+                        <div class="columns large-12 medium-12 small-12">
+                            <div class="page-quote-block">
+                                <h2 class="page-quote js-slidedown-reveal" style="line-height: 0.80">Тут будет заголовок</h2>
+                                <h4 class="quote-comment js-slidedown-reveal">
+                                    Тут будет очень цепляющий слоган!
+                                </h4>
+                                <span class="theme-bg-c js-procede-btn button js-slidedown-reveal">Кнопка</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-bg-v js-bgi-v">
+        </div>
+
+
+
+    </header>
+    <section role="main">
+        <section class="our-products l-section-padding" id="products">
+            <div class="row">
+                <div class="columns large-12">
+                    <h2 class="l-section-title"><span class="title-text">Очень продающая фраза</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column-large-12">
+                    <div class="hidden-container">
+                        <div class="row">
+                            <div class="columns large-12 medium-12">
+                                <div class="added-products">
+                                    <p class="l-inline-block"></p>
+                                    <div class="shopping-cart l-inline-block">
+                                        <i data-icon="&#xe04e;"></i>
+                                        <span class="products-number"><span class="js-product-count">0</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="columns large-12 medium-12 small-12">
+                                <div class="product-presentation-wrapper">
+                                    <div class="product-presentation-content js-products-container">
+                                        <div class="category-list">
+                                            <dl class="select">
+
+                                                <dd></dd>
+                                            </dl>
+                                        </div>
+                                        <div class="slider-preloader">
+                                            <div id="preloader-container">
+                                                <div class="preloader-center">
+                                                    <div class="preloader-view">
+                                                        <div></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+    </section>
+    <footer>
+        <section class="get-in-touch l-section-padding bg-img" id="contacts">
+            <div class="title-block">
+                <div class="row">
+                    <div class="columns large-12">
+                        <h2 class="l-section-title">
+								<span class="title-text" style="font-size: 35px">
+                                    Также принимаются индивидуальные заказы
+</span>
+								</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fields-view">
+                <form action="sendmail.php" method="post">
+                    <div class="row">
+                        <div class="columns large-6 medium-6">
+                            <div class="align-center-small">
+                                <div class="centered-block">
+
+                                    <label for="name" class="contact-label">Имя</label>
+                                    <input type="text" id="name" class="contact-field required" name="name_field">
+                                </div>
+                                <div class="centered-block">
+                                    <label for="mail" class="contact-label">E-mail</label>
+                                    <input type="text" id="mail" class="contact-field required" name="mail_field">
+                                </div>
+                                <div class="centered-block">
+                                    <label for="subject" class="contact-label">Тема</label>
+                                    <input type="text" id="subject" class="contact-field required" name="subject_field">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns large-6 medium-6">
+                            <div class="align-center-small">
+                                <div class="centered-block">
+                                    <label for="message" class="contact-label">Сообщение</label>
+                                    <textarea id="message" class="contact-field textarea-contact required" name="message_field"></textarea>
+
+                                    <span class="checkout">
+											<span style="font-size: 8px">Отправить</span>
+											<i class="fa fa-envelope-o"></i>
+										</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="socials-list">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-tumblr"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="footer-wrapper l-section-padding">
+
+            <div class="row">
+                <div class="columns large-12">
+                    <div class="footer-container">
+                        <div class="footer-item">
+                            <address>
+                                <p class="address-item">
+                                    <span class="heightlight">e-mail:</span> ruba.t@ruba.com
+                                </p>
+                                <p class="address-item">
+                                    <span class="heightlight">Call me</span> +38 (095) 107 41 57
+                                </p>
+                            </address>
+                        </div>
+
+                        <div class="footer-item">
+                            <div class="logo-wrapper">
+                                <div class="logo-block">
+                                    <a href="#main-carousel">
+                                        <img src="images/footer-logo.png" alt="" class="footer-logo"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-item">
+                            <div class="copy-right">
+                                <p>
+                                    © ruba.t 2018. All Rights Reserved
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+<div class="modals">
+    <div class="map-view js-map-container">
+        <span class="button form-view-btn js-form-view">back to site</span>
+        <div id="map-block">
+
+        </div>
+    </div>
+
+    <div class="codal-container">
+
+        <div class="success-block popup-elem">
+            <p class="thank-popup"><span>Thank you!</span><br/> We will contact you soon.</p>
+            <span class="close-popup"></span>
+        </div>
+
+        <div class="error-block popup-elem">
+            <p class="thank-popup"><span>Please, </span><br/>complete the form.</p>
+            <span class="close-popup"></span>
+        </div>
+    </div>
+
+
+    <div class="products-modals">
+        <div class="products-category-list">
+            <div class="category-container">
+                <div class="category-block category-list">
+                    <div class="row">
+                        <div class="columns large-12 medium-12">
+                            <dl class="select">
+                                <dt></dt>
+                                <dd>
+                                    <div class="options-list">
+                                        <div class="close-btn"></div>
+                                        <div class="options-wrapper">
+                                            <div class="options-container js-category-list">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="loader">
+                                        <div class="loader-container">
+                                            <svg id="Layer_1" x="0px" y="0px"
+								          			 width="600px" height="690px" viewBox="0 0 600 690" enable-background="new 0 0 600 690" xml:space="preserve">
+								          		<polygon fill="#f1f1f1" class="polygon" stroke="#A7A9AC" stroke-width="8" stroke-miterlimit="10" points="54.558,557.559 300,132.441
+								          			545.441,557.559 "/>
+								          		<polygon fill="#8856A3"  class="inner" points="96.037,535.115 300,168.885 503.963,535.115 "/>
+								          		</svg>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products-form">
+            <div class="form-container">
+                <div class="main-form-block">
+                    <div class="row">
+                        <div class="columns large-12">
+                            <div class="form-block-header custom-reveal">
+                                <div class="form-close-btn"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="columns large-7 medium-7">
+                            <div class="order-list-block custom-reveal">
+                                <div class="order-list-container js-order-container">
+                                </div>
+                                <div class="order-total-block">
+                                    <p class="total l-dis-ib">Total:</p>
+                                    <p class="total-price l-dis-ib js-total-price">
+                                        <span class="currency"></span>
+                                        <span class="value">0.00</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns large-5 medium-5">
+                            <div class="form-fields products-form-block">
+                                <form action="sendmail.php" method="POST">
+                                    <input type="text" name="name_field" placeholder="Имя" id="name_field" class="fillable-field required custom-reveal">
+
+                                    <span class="mail-field l-pos-r">
+											<input type="text" placeholder="E-mail" name="mail_field" id="mail_field" class="fillable-field required custom-reveal">
+										</span>
+
+                                    <input type="text" placeholder="Номер телефона" name="phone_field" id="phone_field" class="fillable-field required custom-reveal">
+
+
+                                    <input type="text" name="prCode_field" id="prCode_field" class="fillable-field l-hidden required custom-reveal products-code-list">
+
+
+                                    <input type="submit" value="Отправить" class="button submit-btn checkout custom-reveal preorder-btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-details-modal">
+    </div>
+</div>
+
+<script data-main="js/script.js" src="js/lib/require.js"></script>
+</body>
+</html>
