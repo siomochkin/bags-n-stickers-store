@@ -8,87 +8,87 @@ define([], function(){
 		addCodePath: false,
 		items: [
 			{
-				name: "Eastpak Padded Pak'R Backpack",
+				name: "Набор стикеров №1",
 				price: {
 					current: "68.00"
 				},
-				code: "N8101",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odit vitae repellat doloremque dolorem, numquam.",
+				code: "SP01",
+				details: "Очень хороший, модный, приятный набор стикров!",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Cayler And Sons Milano Backpack",
+				name: "Набор стикеров №2",
 				price: {
 					current: "53.00"
 				},
-				code: "N8102",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, animi quam obcaecati.",
+				code: "SP02",
+				details: "Очень хороший, модный, приятный набор стикров!",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Cayler And Sons Milano Backpack",
+				name: "Набор стикеров №3",
 				price: {
 					current: "38.00",
 					old: "48.00"
 				},
-				code: "N8103",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				code: "SP03",
+				details: "Очень хороший, модный, приятный набор стикров!",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Reclaimed Vintage African Bum Bag",
+				name: "Набор стикеров №4",
 				price: {
 					current: "32.00",
 					old: "35.30"
 				},
-				code: "N8104",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				code: "SP04",
+				details: "Очень хороший, модный, приятный набор стикров!",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"],
 			},
 			{
-				name: "Mi-Pac Floral Tapestry Backpack",
+				name: "Сумка №1",
 				price: {
 					current: "16.50",
 					old: "48.00"
 				},
-				code: "N8105",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				code: "BG01",
+				details: "Самая экологичная, удобная и красивая сумка",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Herschel Woodlands Backpack",
+				name: "Сумка №2",
 				price: {
 					current: "78.00"
 				},
-				code: "N8106",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				code: "BG02",
+				details: "Самая экологичная, удобная и красивая сумка.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Spiral Floral Backpack",
+				name: "Сумка №3",
 				price: {
 					current: "20.00",
 					old: "25.00"
 				},
-				code: "N8107",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				code: "BG03",
+				details: "Самая экологичная, удобная и красивая сумка.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "River Island Backpack",
+				name: "Сумка №4",
 				price: {
 					current: "55.30",
 					old: "60.00"
 				},
-				code: "N8108",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				code: "BG04",
+				details: "Самая экологичная, удобная и красивая сумка.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			}
