@@ -31,7 +31,6 @@ define([], function(){
 				name: "Набор стикеров №3",
 				price: {
 					current: "38.00",
-					old: "48.00"
 				},
 				code: "SP03",
 				details: "Очень хороший, модный, приятный набор стикров!",
@@ -42,7 +41,6 @@ define([], function(){
 				name: "Набор стикеров №4",
 				price: {
 					current: "32.00",
-					old: "35.30"
 				},
 				code: "SP04",
 				details: "Очень хороший, модный, приятный набор стикров!",
@@ -53,7 +51,6 @@ define([], function(){
 				name: "Сумка №1",
 				price: {
 					current: "16.50",
-					old: "48.00"
 				},
 				code: "BG01",
 				details: "Самая экологичная, удобная и красивая сумка",
@@ -74,7 +71,6 @@ define([], function(){
 				name: "Сумка №3",
 				price: {
 					current: "20.00",
-					old: "25.00"
 				},
 				code: "BG03",
 				details: "Самая экологичная, удобная и красивая сумка.",
@@ -85,7 +81,6 @@ define([], function(){
 				name: "Сумка №4",
 				price: {
 					current: "55.30",
-					old: "60.00"
 				},
 				code: "BG04",
 				details: "Самая экологичная, удобная и красивая сумка.",

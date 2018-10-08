@@ -43,7 +43,7 @@ define(['backbone', 'velocity', 'waitImg'], function(Backbone){
 							'<p><%= details %></p>',
 						'</div>',
 						'<div class="add-to-cart-btn">',
-							'<span class="theme-bg-c button" data-target="<%= cid %>">',
+							'<span class="theme-bg-c button" data-target="<%= cid %>" style="color: #000000">',
 								'Добавить в корзину',
 								'<span class="added">',
 									'<svg class="ok-sign" enable-background="new 0 0 24 24" version="1.0" viewBox="0 0 24 24" xml:space="preserve">',
